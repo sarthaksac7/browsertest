@@ -1,0 +1,90 @@
+
+html {
+    font-size: calc(1.5* 1.5625vh);
+    margin: 0 auto;
+    max-width: 500px;
+    color: black;
+}
+body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18.667px;
+    font-weight: 300;
+    line-height: 25.33px;
+    background-color: black;
+    overflow: auto;
+}
+
+.bghead{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 46.667px;
+}
+
+.h1{
+    font-size: 29.333px;
+    font-weight: bold;
+    line-height: 34.667px;
+}
+
+.h2{
+    font-size: 24px;
+    line-height: 29.333px;
+    font-weight: 500;
+}
+
+.h3{
+    font-size: 21.333px;
+    font-weight: 300;
+    line-height: 25.33px;
+}
+
+.maincol {
+    color: #008387;
+}
+
+.secondcol{
+    color: #4BB6B5;
+}
+
+.tertiarycol{
+    color: #FBCDC5;
+}
+
+
+
+
+
+
+/* introduction */
+.carousel-item {
+
+    background-color: black;
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.carousel-item img{
+    width: 70% !important;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+
+.imgcap {
+    position: absolute;
+    width: 75%;
+    margin: 0 12.5%;
+    top: 5vh;
+}
+
+
+.center-align {
+    text-align: center;
+}
